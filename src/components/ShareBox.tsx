@@ -38,7 +38,7 @@ function DetailsBox(props: any) {
     const classes = useStyles();
     const [open, setOpen] = useState(true);
     const pageId = props.pageId;
-    let msg = `Hey! Secretly Confess something to or about me on this awesome Confess App..\n\nconfess.cf/${pageId}`
+    let msg = `Hey! Secretly Confess something to or about me on this awesome Confess App..\n\nhttps://confess.cf/${pageId}`
     msg = encodeURIComponent(msg)
     let msg2 = `https://confess.cf/${pageId}`
     return (
