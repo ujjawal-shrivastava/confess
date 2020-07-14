@@ -38,9 +38,9 @@ function DetailsBox(props: any) {
     const classes = useStyles();
     const [open, setOpen] = useState(true);
     const pageId = props.pageId;
-    let msg = `Hey! Secretly Confess something to or about me on this awesome Confess App..\n\nhttps://confess.cf/${pageId}`
+    let msg = `Hey! Secretly Confess something to or about me on this awesome Confess App..\n\nhttps://confess.ujjawal.co/${pageId}`
     msg = encodeURIComponent(msg)
-    let msg2 = `https://confess.cf/${pageId}`
+    let msg2 = `https://confess.ujjawal.co/${pageId}`
     return (
         <Dialog fullScreen open={open} TransitionComponent={Transition} >
             <AppBar className={classes.appBar} position='sticky'>
@@ -59,8 +59,8 @@ function DetailsBox(props: any) {
             <div style={{ paddingBottom: 16 }}>
                 <div>
                     <Typography style={{ padding: 5, color: '#6ab04c', fontSize: 21, fontFamily: 'Sintony', textAlign: 'center' }} >
-                        <u><strong><Link style={{ color: '#6ab04c' }} to={`/${pageId}`} target='_blank' >confess.cf/{pageId}</Link></strong></u>
-                        <IconButton aria-label="copy" onClick={() => CopyToClipboard('confess.cf/' + pageId)}>
+                        <u><strong><Link style={{ color: '#6ab04c' }} to={`/${pageId}`} target='_blank' >confess.ujjawal.co/{pageId}</Link></strong></u>
+                        <IconButton aria-label="copy" onClick={() => CopyToClipboard('confess.ujjawal.co/' + pageId)}>
                             <FileCopyIcon fontSize="default" />
                         </IconButton>
                     </Typography>
@@ -85,7 +85,7 @@ function DetailsBox(props: any) {
                 <Button startIcon={<FacebookIcon />} color="primary" variant="contained" disableElevation size="large" style={{ marginRight: 8,width:160 }}>FACEBOOK</Button>
                 <Button startIcon={<TwitterIcon />} color="primary" variant="contained" disableElevation size="large" style={{ marginLeft: 8,width:160 }} >TWITTER</Button>
         </div>*/}
-            <Typography style={{ textAlign: 'center', padding: 10, margin: 12, fontFamily: 'Sintony', alignSelf: 'center', fontSize: 11 }}>Copyright 2020. <strong>confess.cf</strong> by <strong>Ujjawal Shrivastava</strong></Typography>
+            <Typography style={{ textAlign: 'center', padding: 10, margin: 12, fontFamily: 'Sintony', alignSelf: 'center', fontSize: 11 }}>Copyright 2020. <strong>confess.ujjawal.co</strong> by <strong>Ujjawal Shrivastava</strong></Typography>
         </Dialog>
     )
 }
