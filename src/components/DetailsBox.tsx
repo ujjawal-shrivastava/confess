@@ -86,9 +86,9 @@ function DetailsBox(props: any) {
                 </div>
                 <div>
                     <Typography style={{ marginTop: 12, padding: 20, color: '#6ab04c', fontSize: 21, fontFamily: 'Sintony', textAlign: 'center' }} >
-                        <u><strong><Link style={{ color: '#6ab04c' }} to={`/${pageId}`} target='_blank' >confess.cf/{pageId}</Link></strong></u>
+                        <u><strong><Link style={{ color: '#6ab04c' }} to={`/${pageId}`} target='_blank' >confess.ujjawal.co/{pageId}</Link></strong></u>
 
-                        <IconButton aria-label="copy" onClick={() => CopyToClipboard('confess.cf/'+pageId)}>
+                        <IconButton aria-label="copy" onClick={() => CopyToClipboard('confess.ujjawal.co/'+pageId)}>
                             <FileCopyIcon fontSize="default" />
                         </IconButton>
 
