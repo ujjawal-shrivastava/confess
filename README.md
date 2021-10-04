@@ -31,12 +31,12 @@ With this project, you can make a confession page that you can share with anyone
 
 This project makes use of a GraphQL API written in Django. The backend repo can be found [here]().
 
-```
-This project was created at a very early stage when I was still experimenting with full-stack development with React and GraphQL. This is an advanced TODO app that was created with the sole purpose of learning the technology and frameworks.
+
+_This project was created at a very early stage when I was still experimenting with full-stack development with React and GraphQL. This is an advanced TODO app that was created with the sole purpose of learning the technology and frameworks._
 
 
-At the time of writing this README, I had gained a lot more experience with this stack and can see significant improvements that can be made. However, due to time constraints, I will not be able to continue working on this project.
-```
+_At the time of writing this README, I had gained a lot more experience with this stack and can see significant improvements that can be made. However, due to time constraints, I will not be able to continue working on this project._
+
 
 <br>
 
